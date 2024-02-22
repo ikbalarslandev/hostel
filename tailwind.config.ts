@@ -21,6 +21,12 @@ const config = {
       backgroundImage: {
         "hero-img":
           "url('https://hostelfabrika.com/wp-content/uploads/2018/03/Fabrika-Mamasakhlisi-7-1-1920x950.jpg')",
+        "dorm-img":
+          "url('https://hostelfabrika.com/wp-content/uploads/2016/08/dorms-web-900x1000.jpg')",
+        "apartment-img":
+          "url('https://hostelfabrika.com/wp-content/uploads/2016/08/apartment-style1-1050x470.jpg')",
+        "private-img":
+          "url('https://hostelfabrika.com/wp-content/uploads/2016/08/twin-private1-1050x500.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",
@@ -32,6 +38,7 @@ const config = {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
         },
+        pink: "#ed1550",
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",

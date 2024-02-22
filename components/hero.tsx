@@ -20,7 +20,9 @@ const Hero = () => {
       <div className="text-white flex flex-col gap-10">
         <div className="flex gap-2">
           <Button className="w-[30vw] rounded-none text-lg">LOCATION</Button>
-          <Button className="w-[30vw] rounded-none text-lg">WHAT'S ON</Button>
+          <Button className="w-[30vw] rounded-none text-lg">
+            WHAT&apos;S ON
+          </Button>
         </div>
         <div className="flex flex-col items-center">
           <p className="text-sm">SCROLL DOWN</p>
