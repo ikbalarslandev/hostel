@@ -3,7 +3,7 @@ import { FaAngleDown } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <section className="bg-hero-img h-[93vh] bg-center bg-cover flex flex-col items-center justify-between pt-44 px-8">
+    <section className="bg-hero h-[93vh] bg-center bg-cover flex flex-col items-center justify-between pt-44 px-8">
       <div className="flex flex-col items-center">
         <hr className="w-20 bg-white" />
         <h1 className="text-center   text-white my-2 ">
