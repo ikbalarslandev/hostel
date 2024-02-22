@@ -12,7 +12,7 @@ const Nav = () => {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="bg-gray-900 py-2 flex items-center  relative justify-between pl-1 h-12 m-0">
+    <nav className="bg-black  py-2 flex items-center  relative justify-between pl-1 h-[7vh] m-0">
       {/* hamburger icon */}
       <div className="md:hidden ml-1 mt-2">
         <button
@@ -38,7 +38,7 @@ const Nav = () => {
           className="mb-1"
         />
       </Link>
-      <Button className="bg-pink rounded-none h-12 p-1 text-xs ">
+      <Button className="bg-pink rounded-none h-[7vh] p-1 text-xs ">
         Book Your Stay
       </Button>
       {isMenuOpen && (
