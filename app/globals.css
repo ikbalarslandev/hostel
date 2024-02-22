@@ -59,6 +59,12 @@
 .private {
   background-image: url("https://hostelfabrika.com/wp-content/uploads/2016/08/twin-private1-1050x500.jpg");
 }
+.services {
+  background-image: url("https://hostelfabrika.com/wp-content/uploads/2016/08/lobby4-1920x950.jpg");
+
+  background-position: center;
+  background-size: cover;
+}
 
 @layer base {
   :root {
