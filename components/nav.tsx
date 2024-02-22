@@ -12,7 +12,7 @@ const Nav = () => {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="bg-black  py-2 flex items-center  relative justify-between pl-1 h-[7vh] m-0">
+    <nav className="bg-black  py-2 flex items-center  sticky top-0 z-50 justify-between pl-1 h-[7vh] m-0">
       {/* hamburger icon */}
       <div className="md:hidden ml-1 mt-2">
         <button
