@@ -23,9 +23,9 @@ const Nav = () => {
           onClick={toggleMenu}
         >
           <div>
-            <span className="hamburger-top bg-yellow-300"></span>
-            <span className="hamburger-middle bg-yellow-300"></span>
-            <span className="hamburger-bottom bg-yellow-300"></span>
+            <span className="hamburger-top"></span>
+            <span className="hamburger-middle"></span>
+            <span className="hamburger-bottom"></span>
           </div>
         </button>
       </div>
