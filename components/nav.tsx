@@ -44,7 +44,7 @@ const Nav = () => {
           className="mb-1"
         />
       </Link>
-      <Button className="bg-pink rounded-none h-[7vh] md:h-[5vh] p-1 text-xs w-[30vw] ">
+      <Button className="bg-pink rounded-none h-[7vh] md:h-[5vh] p-1 text-xs md:w-[19vw] w-[30vw]  md:text-lg ">
         Book Your Stay
       </Button>
       {isMenuOpen && (
