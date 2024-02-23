@@ -1,8 +1,17 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { FaAngleDown } from "react-icons/fa6";
 import Image from "next/image";
+import { useState } from "react";
 
 const Hero = () => {
+  const [closeLocation, setCloseLocation] = useState(false);
+
+  const handleLocation = () => {
+    setCloseLocation(!closeLocation);
+  };
+
   return (
     <section className="bg-hero md:bg-none h-[93vh] md:h-[95vh] bg-center bg-cover flex flex-col items-center justify-between pt-44 px-8">
       <video
@@ -10,12 +19,21 @@ const Hero = () => {
         controls={false}
         autoPlay
         muted
+        loop
       >
         <source
           src="https://hostelfabrika.com/wp-content/uploads/2019/08/fabrika.mp4"
           type="video/mp4"
         />
       </video>
+
+      {/* desktop location button */}
+      <Button
+        onClick={handleLocation}
+        className="absolute top-1/2 -right-14 rotate-90 w-40 h-30 text-xl hidden md:flex"
+      >
+        {closeLocation ? "Close" : "Location"}
+      </Button>
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
         <Image
           src="/logo.png"
