@@ -12,12 +12,12 @@ const Nav = () => {
     setMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="bg-black  py-2 flex items-center  sticky top-0 z-50 justify-between pl-1 h-[7vh] m-0">
+    <nav className="bg-black  py-2 flex items-center  sticky top-0 z-50 justify-between pl-1 h-[7vh] m-0 md:h-[5vh]">
       {/* hamburger icon */}
-      <div className="md:hidden ml-1 mt-2">
+      <div className=" ml-1 mt-2 flex gap-12 items-center">
         <button
           id="menu-btn"
-          className={` block hamburger  focus:outline-none ${
+          className={` block hamburger  md:mt-1 focus:outline-none ${
             isMenuOpen ? "open" : ""
           }`}
           onClick={toggleMenu}
@@ -28,6 +28,12 @@ const Nav = () => {
             <span className="hamburger-bottom"></span>
           </div>
         </button>
+        <ul className=" gap-4 hidden md:flex">
+          <li className="text-white">ROOMS</li>
+          <li className="text-white">GALLERY</li>
+          <li className="text-white">OFFERS</li>
+          <li className="text-white">BLOG</li>
+        </ul>
       </div>
       <Link href="/">
         <Image
@@ -38,11 +44,11 @@ const Nav = () => {
           className="mb-1"
         />
       </Link>
-      <Button className="bg-pink rounded-none h-[7vh] p-1 text-xs ">
+      <Button className="bg-pink rounded-none h-[7vh] md:h-[5vh] p-1 text-xs w-[30vw] ">
         Book Your Stay
       </Button>
       {isMenuOpen && (
-        <div className="bg-pink absolute top-12 left-0 h-screen min-w-[290px] animate-fade-right z-10 "></div>
+        <div className="bg-pink absolute top-[7vh] md:top-[5vh] left-0 h-screen min-w-[290px] animate-fade-right z-10 "></div>
       )}
     </nav>
   );
