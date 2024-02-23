@@ -15,7 +15,7 @@ export default function MapPage() {
 
   return (
     <APIProvider apiKey={process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}>
-      <section className="h-[90vh] w-screen">
+      <section className="h-[90vh] max-w-screen">
         <Map zoom={13} center={position} mapId={process.env.NEXT_PUBLIC_MAP_ID}>
           <AdvancedMarker position={position} onClick={() => setOpen(true)}>
             <Pin />
