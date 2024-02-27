@@ -11,7 +11,7 @@ export default function Home() {
       <Rooms />
       <Services />
       <Banner />
-      <MapPage />
+      <MapPage className="h-[90vh] max-w-screen" />
     </main>
   );
 }
