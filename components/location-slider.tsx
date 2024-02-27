@@ -57,10 +57,10 @@ const Slider = () => {
               <p className="text-sm mb-10">zip code: 34435</p>
               <p className="text-sm">
                 Example is nestled in the part of old Istanbul that was a
-                cultural hub in the 19th century. The hostel's unique location
-                allows you to enjoy the city's whimsical charm and its eclectic
-                architecture with all the modern, medieval, classical, and
-                Soviet structures coexisting in harmony.
+                cultural hub in the 19th century. The hostel&apos;s unique
+                location allows you to enjoy the city&apos;s whimsical charm and
+                its eclectic architecture with all the modern, medieval,
+                classical, and Soviet structures coexisting in harmony.
               </p>
             </div>
             <div className=" px-12  w-full h-[30vh] flex flex-col items-start justify-center gap-6">
