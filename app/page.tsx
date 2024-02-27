@@ -6,7 +6,7 @@ import MapPage from "@/components/map";
 
 export default function Home() {
   return (
-    <main>
+    <main className="overflow-hidden">
       <Hero />
       <Rooms />
       <Services />

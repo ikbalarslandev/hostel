@@ -76,6 +76,21 @@
   background-position: center;
   background-size: cover;
 }
+.banner3 {
+  background-image: url("https://hostelfabrika.com/wp-content/uploads/2016/08/fab-outside2-500x500.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.banner4 {
+  background-image: url("https://hostelfabrika.com/wp-content/uploads/2016/08/lobby-1-500x500.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.banner5 {
+  background-image: url("https://hostelfabrika.com/wp-content/uploads/2016/08/lobby6-500x500.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 @layer base {
   :root {
