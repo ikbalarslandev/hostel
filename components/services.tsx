@@ -19,50 +19,52 @@ export const Row = ({ icon, description }: any) => {
 
 const Services = () => {
   return (
-    <section className="h-[90vh] services flex flex-col items-center px-10 justify-center relative">
-      <h1 className="text-yellow-400 text-center text-4xl font-bold z-10 mb-5 ">
-        Facilities
-      </h1>
-      <div className="absolute inset-0 bg-black opacity-40"></div>
-      <div className="bg-yellow-400 h-[2px] w-[80vw] my-2 z-10"></div>
-      <div className="flex flex-col items-start z-10  border-3 border-white">
-        <Row
-          icon={<FaClockRotateLeft className="w-6 h-6 text-yellow-400" />}
-          description="24/7 Reception"
-        />
-        <Row
-          icon={<MdLuggage className="w-9 h-9 text-yellow-400" />}
-          description="Luggage Storage"
-        />
-        <Row
-          icon={<MdEmojiFoodBeverage className="w-9 h-9 text-yellow-400" />}
-          description="Breakfast"
-        />
-        <Row
-          icon={<MdLocalLaundryService className="w-9 h-9 text-yellow-400 " />}
-          description="Laundry Service"
-        />
-        <Row
-          icon={<FaBed className="w-7 h-7 text-yellow-400" />}
-          description="Bed Sheets Included"
-        />
-        <Row
-          icon={<FaWifi className="w-7 h-7 text-yellow-400" />}
-          description="Free Wi-Fi"
-        />
-        <Row
-          icon={<RiBeerLine className="w-7 h-7 text-yellow-400" />}
-          description="Bar"
-        />
-        <Row
-          icon={<TbToolsKitchen3 className="w-7 h-7 text-yellow-400" />}
-          description="Guest Kitchen"
-        />
+    <section className="h-[90vh] services  ">
+      <div className="h-[90vh] flex flex-col items-center px-10 justify-center relative  md:w-[50vw]">
+        <h1 className="text-yellow-400 text-center text-4xl font-bold z-10 mb-5 ">
+          Facilities
+        </h1>
+        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="bg-yellow-400 h-[2px] w-[80vw] md:w-[30vw] my-2 z-10"></div>
+        <div className="flex flex-col items-start z-10  border-3 border-white">
+          <Row
+            icon={<FaClockRotateLeft className="w-6 h-6 text-yellow-400" />}
+            description="24/7 Reception"
+          />
+          <Row
+            icon={<MdLuggage className="w-9 h-9 text-yellow-400" />}
+            description="Luggage Storage"
+          />
+          <Row
+            icon={<MdEmojiFoodBeverage className="w-9 h-9 text-yellow-400" />}
+            description="Breakfast"
+          />
+          <Row
+            icon={
+              <MdLocalLaundryService className="w-9 h-9 text-yellow-400 " />
+            }
+            description="Laundry Service"
+          />
+          <Row
+            icon={<FaBed className="w-7 h-7 text-yellow-400" />}
+            description="Bed Sheets Included"
+          />
+          <Row
+            icon={<FaWifi className="w-7 h-7 text-yellow-400" />}
+            description="Free Wi-Fi"
+          />
+          <Row
+            icon={<RiBeerLine className="w-7 h-7 text-yellow-400" />}
+            description="Bar"
+          />
+          <Row
+            icon={<TbToolsKitchen3 className="w-7 h-7 text-yellow-400" />}
+            description="Guest Kitchen"
+          />
+        </div>
+        <div className="bg-yellow-400 h-[2px] w-[80vw] md:w-[30vw] my-2 z-10"></div>
+        <Button className="z-10 mt-1">See More</Button>
       </div>
-
-      <div className="bg-yellow-400 h-[2px] w-[80vw] my-2 z-10"></div>
-
-      <Button className="z-10 mt-1">See More</Button>
     </section>
   );
 };
