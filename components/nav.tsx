@@ -29,10 +29,18 @@ const Nav = () => {
           </div>
         </button>
         <ul className=" gap-4 hidden md:flex">
-          <li className="text-white">ROOMS</li>
-          <li className="text-white">GALLERY</li>
-          <li className="text-white">OFFERS</li>
-          <li className="text-white">BLOG</li>
+          <li className="text-white">
+            <Link href="#">ROOMS</Link>
+          </li>
+          <li className="text-white">
+            <Link href="#">GALLERY</Link>
+          </li>
+          <li className="text-white">
+            <Link href="#">OFFERS</Link>
+          </li>
+          <li className="text-white">
+            <Link href="#">BLOG</Link>
+          </li>
         </ul>
       </div>
       <Link href="/">
@@ -45,7 +53,7 @@ const Nav = () => {
         />
       </Link>
       <Button className="bg-pink rounded-none h-[7vh] md:h-[5vh] p-1 text-xs md:w-[19vw] w-[30vw]  md:text-lg ">
-        Book Your Stay
+        <Link href="https://www.hostelworld.com/"> Book Your Stay</Link>
       </Button>
       {isMenuOpen && (
         <div className="bg-pink absolute top-[7vh] md:top-[5vh] left-0 h-screen min-w-[290px] animate-fade-right z-10 "></div>

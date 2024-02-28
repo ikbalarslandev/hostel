@@ -7,6 +7,7 @@ import { FaWifi } from "react-icons/fa";
 import { RiBeerLine } from "react-icons/ri";
 import { TbToolsKitchen3 } from "react-icons/tb";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export const Row = ({ icon, description }: any) => {
   return (
@@ -63,7 +64,10 @@ const Services = () => {
           />
         </div>
         <div className="bg-yellow-400 h-[2px] w-[80vw] md:w-[30vw] my-2 z-10"></div>
-        <Button className="z-10 mt-1">See More</Button>
+
+        <Button className="z-10 mt-1">
+          <Link href="#">See More</Link>
+        </Button>
       </div>
     </section>
   );

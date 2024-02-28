@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { FaAngleDown } from "react-icons/fa6";
 import Image from "next/image";
 import Slider from "./location-slider";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -39,14 +40,15 @@ const Hero = () => {
 
         <hr className="w-20 mb-2 bg-white " />
         <Button variant="link" className="text-yellow-400 font-bold text-2xl ">
-          About Us
+          <Link href="#">About Us</Link>
         </Button>
       </div>
       <div className="text-white flex flex-col gap-10 md:hidden mt-[10vh]">
         <div className="flex gap-2">
-          <Button className="w-[30vw] rounded-none text-lg">LOCATION</Button>
           <Button className="w-[30vw] rounded-none text-lg">
-            WHAT&apos;S ON
+            <Link href="https://www.google.com/maps/place/Taksim+Square,+%C5%9Eehit+Muhtar,+34435+Beyo%C4%9Flu%2F%C4%B0stanbul/@41.0370013,28.974792,15z/data=!3m1!4b1!4m6!3m5!1s0x14cab7650656bd63:0x8ca058b28c20b6c3!8m2!3d41.0370023!4d28.9850917!16zL20vMDJ5cW40?entry=ttu">
+              LOCATION
+            </Link>
           </Button>
         </div>
       </div>
