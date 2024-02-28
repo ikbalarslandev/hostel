@@ -30,16 +30,13 @@ const Nav = () => {
         </button>
         <ul className=" gap-4 hidden md:flex">
           <li className="text-white">
-            <Link href="#">ROOMS</Link>
+            <Link href="/rooms">ROOMS</Link>
           </li>
           <li className="text-white">
             <Link href="#">GALLERY</Link>
           </li>
           <li className="text-white">
             <Link href="#">OFFERS</Link>
-          </li>
-          <li className="text-white">
-            <Link href="#">BLOG</Link>
           </li>
         </ul>
       </div>
