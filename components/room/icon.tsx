@@ -13,7 +13,10 @@ import { TbLamp } from "react-icons/tb";
 
 export const Template = ({ icon, desc }: any) => {
   return (
-    <div className="flex items-center gap-3 my-2" key={desc}>
+    <div
+      className="flex items-center bg-pink gap-3 py-2 pl-4  pr-10"
+      key={desc}
+    >
       {icon}
       <p className="text-white text-lg">{desc}</p>
     </div>

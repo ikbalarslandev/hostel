@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const Slider = ({ imgUrls }: any) => {
   return (
-    <Carousel className="w-full    ">
+    <Carousel className="w-full   ">
       <CarouselContent>
         {imgUrls?.map((item: string) => (
           <CarouselItem key={item}>

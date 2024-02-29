@@ -3,8 +3,10 @@ import Select from "./room-select";
 const Dorms = ({ selected, setSelected }: any) => {
   return (
     <div>
-      <h1 className="text-center text-pink font-bold text-2xl mb-4">Dorms</h1>
-      <div className="flex flex-col gap-3">
+      <h1 className="text-center text-pink font-bold text-2xl bg-white pb-4 ">
+        Dorms
+      </h1>
+      <div className="flex flex-col ">
         <Select
           name="12 Mixed Room"
           selected={selected}
