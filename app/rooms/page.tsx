@@ -2,7 +2,8 @@
 import { useState, useEffect } from "react";
 import SectionSellect from "@/components/room/select-section";
 import data from "@/data/rooms";
-import Icon from "@/components/room/icon";
+import Perks from "@/components/room/perks";
+import Details from "@/components/room/details";
 
 const Rooms = () => {
   const [selected, setSelected] = useState("12 Mixed Room");
@@ -20,18 +21,8 @@ const Rooms = () => {
       </div>
       <div className="flex flex-col justify-between md:flex-row">
         <SectionSellect selected={selected} setSelected={setSelected} />
-        <div className="flex flex-col px-12 mx-5 md:mx-0 md:w-[40vw] my-3 pb-3 bg-pink">
-          <h1 className="text-white text-center text-3xl my-5  font-bold">
-            Room Perks
-          </h1>
-
-          {room.perks &&
-            room.perks.map((a: any) => (
-              <div key={a}>
-                <Icon icon={a} />
-              </div>
-            ))}
-        </div>
+        <Details room={room} />
+        <Perks room={room} />
       </div>
     </main>
   );
