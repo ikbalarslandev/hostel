@@ -10,6 +10,7 @@ const Template = ({ src, desc }: any) => {
         height={500}
         layout="responsive"
       />
+
       <p className="px-3 text-pink py-2">{desc}</p>
     </div>
   );
