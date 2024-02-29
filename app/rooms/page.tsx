@@ -15,11 +15,11 @@ const Rooms = () => {
   }, [selected]);
 
   return (
-    <main className="overflow-hidden bg-gray-300">
+    <main className="overflow-hidden bg-stone-200 min-h-screen">
       <div className="banner3  w-screen h-28 md:h-40 flex flex-col  items-center justify-center">
         <h1 className="text-white text-5xl font-bold shadow-lg">Rooms</h1>
       </div>
-      <div className="flex flex-col justify-between md:flex-row">
+      <div className="flex flex-col md:gap-20 justify-between md:flex-row min-h-[80vh] md:mt-4">
         <SectionSellect selected={selected} setSelected={setSelected} />
         <Details room={room} />
         <Perks room={room} />

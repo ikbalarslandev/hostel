@@ -3,7 +3,7 @@ import Private from "./private";
 
 const SectionSellect = ({ selected, setSelected }: any) => {
   return (
-    <div className="md:flex-1 my-5 md:my-0 flex flex-col items-center md:block bg-white py-3 mx-5 md:mx-0">
+    <div className="md:flex-1 md:max-h-[60vh] md:max-w-[20vw] my-5 md:my-0 flex flex-col items-center md:block bg-white py-3 mx-5 md:mx-0">
       <Dorms selected={selected} setSelected={setSelected} />
       <Private selected={selected} setSelected={setSelected} />
     </div>
