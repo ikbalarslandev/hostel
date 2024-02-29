@@ -56,7 +56,22 @@ const Nav = () => {
         <Link href="https://www.hostelworld.com/"> Book Your Stay</Link>
       </Button>
       {isMenuOpen && (
-        <div className="bg-pink absolute top-[7vh] md:top-[5vh] left-0 h-screen min-w-[290px] animate-fade-right z-10 "></div>
+        <div className="bg-pink absolute top-[7vh] md:top-[5vh] left-0 h-screen min-w-[290px] animate-fade-right z-10  flex items-start justify-center">
+          <ul className="  flex flex-col items-start mt-16 scale-x-150   text-2xl  gap-10">
+            <li className="text-white" onClick={toggleMenu}>
+              <Link href="/rooms">ROOMS</Link>
+            </li>
+            <li className="text-white" onClick={toggleMenu}>
+              <Link href="/about">ABOUT</Link>
+            </li>
+            <li className="text-white" onClick={toggleMenu}>
+              <Link href="/faq">FAQ</Link>
+            </li>
+            <li className="text-white" onClick={toggleMenu}>
+              <Link href="/contact">CONTACT</Link>
+            </li>
+          </ul>
+        </div>
       )}
     </nav>
   );
