@@ -1,6 +1,14 @@
 const data = [
   {
     title: "12 Mixed Room",
+    imgUrls: [
+      "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
+      "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
+      "https://hostelfabrika.com/wp-content/uploads/2016/08/14550638_10157496881445153_1054452328_o-1024x682.jpg",
+      "https://hostelfabrika.com/wp-content/uploads/2016/08/B0B_3844-1024x683.jpg",
+      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-14-1024x685.jpg",
+      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-15-1024x687.jpg",
+    ],
     description:
       "Spacious and full of light, this dorm sleeps 12 people on 6 bunk beds on super comfy mattresses. The minimalistic design brings a certain urban elegance, along with the nostalgic feeling one gets from distinctive soviet elements.    Like the rest of the dorms, it has a shared bathroom, is equipped with an A/C, small bed counters, individual reading lamps, individual lockers, free fast WiFi and a common table.    Come and stay with a big crowd of friends, but try not to fight over who sleeps on the top bunk!",
     perks: [

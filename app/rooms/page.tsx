@@ -24,7 +24,13 @@ const Rooms = () => {
           <h1 className="text-white text-center text-3xl my-5  font-bold">
             Room Perks
           </h1>
-          {room.perks && room.perks.map((a: any) => <Icon icon={a} />)}
+
+          {room.perks &&
+            room.perks.map((a: any) => (
+              <div key={a}>
+                <Icon icon={a} />
+              </div>
+            ))}
         </div>
       </div>
     </main>
