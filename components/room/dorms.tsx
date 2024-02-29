@@ -2,7 +2,7 @@ import Select from "./room-select";
 
 const Dorms = ({ selected, setSelected }: any) => {
   return (
-    <div className=" bg-white   ">
+    <div>
       <h1 className="text-center text-pink font-bold text-2xl mb-4">Dorms</h1>
       <div className="flex flex-col gap-3">
         <Select

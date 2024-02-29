@@ -2,7 +2,7 @@ import Select from "./room-select";
 
 const Private = ({ selected, setSelected }: any) => {
   return (
-    <div className=" bg-white   pt-10  ">
+    <div className="pt-10">
       <h1 className="text-center text-pink font-bold text-2xl mb-4">
         Private Rooms
       </h1>
