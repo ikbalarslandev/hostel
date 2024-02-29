@@ -14,10 +14,10 @@ const Nav = () => {
   return (
     <nav className="bg-black  py-2 flex items-center  sticky top-0 z-50 justify-between pl-1 h-[7vh] m-0 md:h-[5vh]">
       {/* hamburger icon */}
-      <div className=" ml-1 mt-2 flex gap-12 items-center">
+      <div className=" ml-1 mt-2 flex gap-12 items-center ">
         <button
           id="menu-btn"
-          className={` block hamburger  md:mt-1 focus:outline-none ${
+          className={` block hamburger  md:mt-1 focus:outline-none md:hidden  ${
             isMenuOpen ? "open" : ""
           }`}
           onClick={toggleMenu}
@@ -28,15 +28,18 @@ const Nav = () => {
             <span className="hamburger-bottom"></span>
           </div>
         </button>
-        <ul className=" gap-4 hidden md:flex">
+        <ul className=" gap-4 hidden md:flex ml-4">
           <li className="text-white">
             <Link href="/rooms">ROOMS</Link>
           </li>
           <li className="text-white">
-            <Link href="#">GALLERY</Link>
+            <Link href="/about">ABOUT</Link>
           </li>
           <li className="text-white">
-            <Link href="#">OFFERS</Link>
+            <Link href="/faq">FAQ</Link>
+          </li>
+          <li className="text-white">
+            <Link href="/contact">CONTACT</Link>
           </li>
         </ul>
       </div>
