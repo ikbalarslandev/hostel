@@ -18,8 +18,8 @@
   top: 0;
   left: 0;
   width: 24px;
-  height: 2px;
-  background: #fffb00;
+  height: 3px;
+  background: #000000;
   transform: rotate(0);
   transition: all 0.5s;
 }

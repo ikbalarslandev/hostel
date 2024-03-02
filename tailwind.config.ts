@@ -58,7 +58,7 @@ const config = {
         },
       },
       backgroundColor: {
-        pink: "#ed1550",
+        pink: "rgb(234 179 8)",
       },
       borderRadius: {
         lg: "var(--radius)",
