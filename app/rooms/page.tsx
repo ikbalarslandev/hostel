@@ -6,7 +6,7 @@ import Perks from "@/components/room/perks";
 import Details from "@/components/room/details";
 
 const Rooms = () => {
-  const [selected, setSelected] = useState("12 Mixed Room");
+  const [selected, setSelected] = useState("8 Mixed Dorm");
   const [room, setRoom] = useState<any>({});
 
   useEffect(() => {

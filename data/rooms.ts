@@ -1,29 +1,6 @@
 const data = [
   {
-    title: "12 Mixed Room",
-    imgUrls: [
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/14550638_10157496881445153_1054452328_o-1024x682.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/B0B_3844-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-14-1024x685.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-15-1024x687.jpg",
-    ],
-    description:
-      "Spacious and full of light, this dorm sleeps 12 people on 6 bunk beds on super comfy mattresses. The minimalistic design brings a certain urban elegance, along with the nostalgic feeling one gets from distinctive soviet elements.    Like the rest of the dorms, it has a shared bathroom, is equipped with an A/C, small bed counters, individual reading lamps, individual lockers, free fast WiFi and a common table.    Come and stay with a big crowd of friends, but try not to fight over who sleeps on the top bunk!",
-    perks: [
-      "bunk-beds",
-      "free-wifi",
-      "air-conditioning",
-      "individual-reading-lamp",
-      "individual-lockers",
-      "bed-counters",
-      "common-table",
-      "shared-bathroom",
-    ],
-  },
-  {
-    title: "10 Mixed Room",
+    title: "8 Mixed Dorm",
     imgUrls: [
       "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
       "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
@@ -46,7 +23,7 @@ const data = [
     ],
   },
   {
-    title: "6 Mixed Room",
+    title: "6 Mixed Dorm",
     imgUrls: [
       "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
       "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
@@ -69,7 +46,7 @@ const data = [
     ],
   },
   {
-    title: "4 Mixed Room",
+    title: "4 Mixed Dorm",
     imgUrls: [
       "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
       "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
@@ -91,77 +68,7 @@ const data = [
       "shared-bathroom",
     ],
   },
-  {
-    title: "3 Mixed Room",
-    imgUrls: [
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/14550638_10157496881445153_1054452328_o-1024x682.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/B0B_3844-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-14-1024x685.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-15-1024x687.jpg",
-    ],
-    description:
-      "If you are reluctant to share the room with too many people, you can enjoy your peace and quiet in this cozy dorm. There is a bunk bed and an additional single bed with comfy mattresses to accommodate just three guests.",
-    perks: [
-      "bunk-beds",
-      "free-wifi",
-      "air-conditioning",
-      "individual-reading-lamp",
-      "individual-lockers",
-      "bed-counters",
-      "common-table",
-      "shared-bathroom",
-    ],
-  },
-  {
-    title: "6 Female Room",
-    imgUrls: [
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/14550638_10157496881445153_1054452328_o-1024x682.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/B0B_3844-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-14-1024x685.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-15-1024x687.jpg",
-    ],
-    description:
-      "Ladies Rejoice!    Like the name suggests, this dorm sleeps 6 ladies and only ladies on 3 bunk beds with ultra-comfy mattresses.",
-    perks: [
-      "bunk-beds",
-      "free-wifi",
-      "air-conditioning",
-      "individual-reading-lamp",
-      "individual-lockers",
-      "bed-counters",
-      "common-table",
-      "shared-bathroom",
-      "only-girls-slumber-party",
-    ],
-  },
-  {
-    title: "4 Female Room",
-    imgUrls: [
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/12-mixed-dormm-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/For-All-Dorm-Rooms-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/14550638_10157496881445153_1054452328_o-1024x682.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/B0B_3844-1024x683.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-14-1024x685.jpg",
-      "https://hostelfabrika.com/wp-content/uploads/2016/08/Compressed_FAB-15-1024x687.jpg",
-    ],
-    description:
-      "Ladies Rejoice!      Like the name suggests, this dorm sleeps 4 ladies and only ladies on 2 bunk beds. Good rest is assured by our comfy matrasses, crisp linen and fluffy pillows.",
-    perks: [
-      "bunk-beds",
-      "free-wifi",
-      "air-conditioning",
-      "individual-reading-lamp",
-      "individual-lockers",
-      "bed-counters",
-      "common-table",
-      "shared-bathroom",
-      "only-girls-slumber-party",
-    ],
-  },
+
   {
     title: "Double Room",
     imgUrls: [
