@@ -18,14 +18,14 @@ const Slider = ({ imgUrls }: any) => {
           <CarouselItem key={item}>
             <div className=" ">
               <Card>
-                <CardContent className="flex  items-center justify-center ">
+                <CardContent className="flex  items-center justify-center w-full  ">
                   <Image
                     src={item}
                     alt="room"
                     width={1000}
                     height={1000}
                     objectFit="cover"
-                    className="bg-black "
+                    className="bg-black aspect-video  "
                   />
                 </CardContent>
               </Card>
