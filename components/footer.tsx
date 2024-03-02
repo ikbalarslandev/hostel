@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="h-20 md:h-12 bg-black flex items-center justify-between px-1">
       <div className=" flex items-center flex-col md:flex-row md:gap-8 ">
         <Link href="#">
-          <p className="font-bold italic text-4xl text-pink">FAQ</p>
+          <p className="font-bold italic text-4xl text-white">FAQ</p>
         </Link>
         <Link href="#">
           <p className="text-yellow-500 font-bold hidden md:block">
@@ -44,10 +44,10 @@ const Footer = () => {
       </div>
       <Link
         className="gap-3  hidden md:flex mr-2"
-        href="https://www.google.com/maps/place/Taksim+Square,+%C5%9Eehit+Muhtar,+34435+Beyo%C4%9Flu%2F%C4%B0stanbul/@41.0370013,28.974792,15z/data=!3m1!4b1!4m6!3m5!1s0x14cab7650656bd63:0x8ca058b28c20b6c3!8m2!3d41.0370023!4d28.9850917!16zL20vMDJ5cW40?entry=ttu"
+        href="https://www.google.com/maps/place/Berlin+Hostel+%26+Street/@36.8809976,30.7036395,18.42z/data=!4m10!3m9!1s0x14c39006eedf3f27:0xcaa355039f162897!5m3!1s2024-05-04!4m1!1i2!8m2!3d36.8844456!4d30.7085944!16s%2Fg%2F11tfc5dq11?entry=ttu"
       >
         <div className="gap-3  hidden md:flex mr-2  ">
-          <p className="text-yellow-400 font-bold">Şehit Muhtar str.</p>
+          <p className="text-yellow-400 font-bold">Kandiller str.</p>
           <p className="text-yellow-400 ">Istanbul</p>
         </div>
       </Link>
