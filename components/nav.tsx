@@ -49,11 +49,17 @@ const Nav = () => {
           alt="logo"
           width={180}
           height={200}
-          className="mt-3"
+          className="mt-3 scale-x-125"
         />
       </Link>
-      <Button className=" h-[7vh] md:h-[5vh] p-1 text-xs text-black  md:w-[19vw] w-[30vw]  md:text-lg ">
-        <Link href="https://www.hostelworld.com/"> Book Your Stay</Link>
+      <Button className=" h-[7vh] md:h-[5vh] p-1 text-xs text-white  md:w-[19vw] w-[30vw]  md:text-lg ">
+        <Link
+          href="https://www.hostelworld.com/"
+          className="md:scale-x-125 scale-y-150 md:scale-y-100"
+        >
+          {" "}
+          Book Your Stay
+        </Link>
       </Button>
       {isMenuOpen && (
         <div className="bg-black absolute top-[7vh] md:top-[5vh] left-0 h-screen min-w-[290px] animate-fade-right z-10  flex items-start justify-center">

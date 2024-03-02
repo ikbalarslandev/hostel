@@ -21,7 +21,7 @@ const Hero = () => {
       </video>
       <Slider />
 
-      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 ">
+      <div className="absolute top-20 left-1/2 transform -translate-x-1/2 ">
         <Image
           src="/logo.png"
           alt="logo"
@@ -34,8 +34,8 @@ const Hero = () => {
       <div className="flex flex-col items-center md:mt-[40vh] z-0 mt-[30vh] mx-10 ">
         <hr className="w-20 bg-white" />
         <h1 className="text-center   text-white my-2 md:w-80 md:text-xl  ">
-          EXAMPLE HOSTEL IN ISTANBUL, WHERE YOU SLEEP, EAT, DRINK, DESIGN,
-          CREATE, INTERACT, DISCOVER AND LEARN.
+          BERLIN HOSTEL & STREET IN ANTALYA, WHERE YOU SLEEP, EAT, DRINK,
+          DESIGN, CREATE, INTERACT, DISCOVER AND LEARN.
         </h1>
 
         <hr className="w-20 mb-2 bg-white " />

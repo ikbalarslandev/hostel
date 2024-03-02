@@ -11,7 +11,7 @@ export const Transport = ({ icon, desc }: any) => {
   return (
     <div className="flex gap-3 items-center justify-center">
       {icon}
-      <p className="text-white font-semibold">{desc}</p>
+      <p className="text-black font-semibold">{desc}</p>
     </div>
   );
 };
@@ -39,24 +39,24 @@ const Slider = () => {
       >
         {closeLocation ? "Location " : "Close"}
       </Button>
-      <div className="bg-white w-[70vw]  z-50 h-[95vh] flex items-center justify-center">
+      <div className="bg-black w-[70vw]  z-50 h-[95vh] flex items-center justify-center">
         <div className="bg-black  w-[65vw]  h-[89vh] flex ">
           <div className="flex-1">
             <MapPage className="h-[89vh] w-[37vw]" />
           </div>
-          <div className="bg-pink h-full w-[28vw] flex flex-col">
-            <div className="flex-1 bg-yellow-400 px-10 py-28">
-              <h1 className="text-pink text-xl font-semibold ">
+          <div className="bg-yellow-400 h-full w-[28vw] flex flex-col">
+            <div className="flex-1 bg-white  px-10 py-28">
+              <h1 className="text-yellow-500 text-xl font-semibold ">
                 Example Hostel
               </h1>
               <p>
-                Şehit Muhtar str. <br />
-                Istanbul
+                Kandiller str. <br />
+                Antalya
               </p>
               <p className="font-bold">Turkey</p>
-              <p className="text-sm mb-10">zip code: 34435</p>
+              <p className="text-sm mb-10">zip code: 07100</p>
               <p className="text-sm">
-                Example is nestled in the part of old Istanbul that was a
+                Berlin Hostel is nestled in the part of old Antalya that was a
                 cultural hub in the 19th century. The hostel&apos;s unique
                 location allows you to enjoy the city&apos;s whimsical charm and
                 its eclectic architecture with all the modern, medieval,
@@ -65,15 +65,15 @@ const Slider = () => {
             </div>
             <div className=" px-12  w-full h-[30vh] flex flex-col items-start justify-center gap-6">
               <Transport
-                icon={<IoMdSubway className="text-4xl text-yellow-400" />}
-                desc="3 min walk to Taksim Station (Metro)"
+                icon={<IoMdSubway className="text-4xl text-black" />}
+                desc="3 min walk to Public Transport"
               />
               <Transport
-                icon={<FaMapSigns className="text-4xl text-yellow-400" />}
-                desc="5 min walk to Istiklal Street"
+                icon={<FaMapSigns className="text-4xl text-black" />}
+                desc="5 min walk to Main Street"
               />
               <Transport
-                icon={<SiOpenstreetmap className="text-4xl text-yellow-400" />}
+                icon={<SiOpenstreetmap className="text-4xl text-black" />}
                 desc="20 min walk to Old Town"
               />
             </div>

@@ -3,11 +3,11 @@
 import { Map, AdvancedMarker, Pin } from "@vis.gl/react-google-maps";
 
 export default function MapPage({ className = "" }: { className?: string }) {
-  const position = { lat: 41.0367, lng: 28.985 };
+  const position = { lat: 36.884809615672495, lng: 30.708707755120507 };
 
   const handleClick = () => {
     window.open(
-      "https://www.google.com/maps/place/Taksim+Square,+%C5%9Eehit+Muhtar,+34435+Beyo%C4%9Flu%2F%C4%B0stanbul/@41.0370013,28.974792,15z/data=!4m15!1m8!3m7!1s0x14cab7650656bd63:0x8ca058b28c20b6c3!2sTaksim+Square,+%C5%9Eehit+Muhtar,+34435+Beyo%C4%9Flu%2F%C4%B0stanbul!3b1!8m2!3d41.0370023!4d28.9850917!16zL20vMDJ5cW40!3m5!1s0x14cab7650656bd63:0x8ca058b28c20b6c3!8m2!3d41.0370023!4d28.9850917!16zL20vMDJ5cW40?entry=ttu",
+      "https://www.google.com/maps/place/Berlin+Hostel+%26+Street/@36.8809976,30.7036395,18.42z/data=!4m10!3m9!1s0x14c39006eedf3f27:0xcaa355039f162897!5m3!1s2024-05-04!4m1!1i2!8m2!3d36.8844456!4d30.7085944!16s%2Fg%2F11tfc5dq11?entry=ttu",
       "_blank"
     );
   };
