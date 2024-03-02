@@ -4,7 +4,7 @@ import PageTemplate from "@/components/page.template";
 
 const AboutPage = () => {
   return (
-    <main>
+    <main className="bg-zinc-200  pb-10">
       <PageTemplate title="About Us" />
       {data.map((item, index) => (
         <div key={index}>

@@ -22,7 +22,7 @@ const Services = () => {
   return (
     <section className="h-[90vh] services  ">
       <div className="h-[90vh] flex flex-col items-center px-10 justify-center relative  md:w-[50vw]">
-        <h1 className="text-yellow-400 text-center text-4xl font-bold z-10 mb-5 ">
+        <h1 className="text-white text-center text-4xl font-bold z-10 mb-5 ">
           Facilities
         </h1>
         <div className="absolute inset-0 bg-black opacity-40"></div>

@@ -16,7 +16,7 @@ const Rooms = () => {
   }, [selected]);
 
   return (
-    <main>
+    <main className="bg-zinc-200">
       <PageTemplate title="Rooms" />
       <div className="flex flex-col md:gap-20 justify-between md:flex-row min-h-[80vh] md:mt-4">
         <SectionSellect selected={selected} setSelected={setSelected} />

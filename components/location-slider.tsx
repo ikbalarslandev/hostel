@@ -56,11 +56,10 @@ const Slider = () => {
               <p className="font-bold">Turkey</p>
               <p className="text-sm mb-10">zip code: 07100</p>
               <p className="text-sm">
-                Berlin Hostel is nestled in the part of old Antalya that was a
-                cultural hub in the 19th century. The hostel&apos;s unique
-                location allows you to enjoy the city&apos;s whimsical charm and
-                its eclectic architecture with all the modern, medieval,
-                classical, and Soviet structures coexisting in harmony.
+                Berlin Hostel & Street is an independent and locally run, and as
+                such you will get the personal touch not found in big chain
+                hostels, with a unique family atmosphere that will make you feel
+                right at home.
               </p>
             </div>
             <div className=" px-12  w-full h-[30vh] flex flex-col items-start justify-center gap-6">

@@ -5,10 +5,10 @@ import PageTemplate from "@/components/page.template";
 
 const FaqPage = () => {
   return (
-    <main>
+    <main className="bg-zinc-200 min-h-screen">
       <PageTemplate title="FAQ" />
       <div className="flex flex-col items-center justify-center">
-        <div className="bg-white mx-3 my-5 p-4 md:w-[40vw]  ">
+        <div className="bg-white mx-3 my-5  p-4 md:w-[40vw]  ">
           <Accordion type="single" collapsible className="w-full  ">
             {data.map((item, i) => (
               <div key={i}>

@@ -7,8 +7,9 @@ import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Hostel Website",
-  description: "A website for a hostel",
+  title: "Berlin Hostel & Street",
+  description:
+    " independent and locally run hostel with a unique family atmosphere that will make you feel right at home. ",
 };
 
 export default function RootLayout({
