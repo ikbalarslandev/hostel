@@ -5,7 +5,7 @@ const Banner = () => {
         <div className="flex-1 flex flex-col">
           <div className="flex-1 banner3"></div>
           <div className="flex-1 bg-black text-white  text-lg flex items-center justify-center text-center font-semibold">
-            Meet the fellow travelers
+            MEET THE FELLOW TRAVELERS
           </div>
         </div>
         <div className="flex-1 flex flex-col">
@@ -25,7 +25,7 @@ const Banner = () => {
         <div className="flex-1 flex flex-col">
           <div className="flex-1 banner1"></div>
           <div className="flex-1    bg-black text-white text-lg flex items-center justify-center text-center font-semibold">
-            DISCOVER A NEW SIDE OF ISTANBUL
+            DISCOVER A NEW SIDE OF ANTALYA
           </div>
         </div>
       </div>
