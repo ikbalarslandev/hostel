@@ -61,7 +61,7 @@ const Nav = () => {
       </Link>
       <Button className=" h-[7vh] md:h-[5vh] p-1 text-xs text-white  md:w-[19vw] w-[30vw]  md:text-lg ">
         <Link
-          href="https://www.hostelworld.com/"
+          href="https://www.hostelworld.com/st/hostels/p/315242/berlin-hostel-and-street/"
           className="md:scale-x-125 scale-y-150 md:scale-y-100"
         >
           {" "}

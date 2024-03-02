@@ -25,16 +25,16 @@ const Footer = () => {
 
       <div className=" flex flex-col items-end  justify-center  mt-1   ">
         <div className="flex mr-auto md:mr-0 ">
-          <Link href="https://www.tripadvisor.com/">
+          <Link href="https://www.tripadvisor.com/Hotel_Review-g15300585-d26850246-Reviews-Berlin_Hostel_Street-Muratpasa_Antalya_Turkish_Mediterranean_Coast.html">
             <FaTripadvisor className={iconClass} />
           </Link>
           <Link href="https://www.twitter.com/">
             <FaTwitter className={iconClass} />
           </Link>
-          <Link href="https://www.instagram.com/">
+          <Link href="https://www.instagram.com/berlinhostel/">
             <FaInstagram className={iconClass} />
           </Link>
-          <Link href="https://www.facebook.com/">
+          <Link href="https://m.facebook.com/p/Berlin-Hostel-Street-Pub-100086830014602/">
             <FaFacebookF className={iconClass} />
           </Link>
         </div>
