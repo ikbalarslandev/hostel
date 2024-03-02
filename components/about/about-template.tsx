@@ -11,7 +11,7 @@ const Template = ({ src, desc }: any) => {
         layout="responsive"
       />
 
-      <p className="px-3 text-pink py-2">{desc}</p>
+      <p className="px-3 text-black py-2">{desc}</p>
     </div>
   );
 };

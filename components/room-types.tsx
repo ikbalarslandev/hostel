@@ -23,11 +23,10 @@ const Rooms = () => {
   return (
     <section className="overflow-hidden">
       <div className="md:flex md:h-[95vh] w-screen  ">
-        <Section image="dorm" title="DORMS" link="#" />
         <div className="md:flex flex-col flex-1">
-          {/* <Section image="apartment" title="APARTMENT ROOMS" link="#" /> */}
           <Section image="private" title="PRIVATE ROOMS" link="#" />
         </div>
+        <Section image="dorm" title="DORMS" link="#" />
       </div>
     </section>
   );

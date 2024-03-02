@@ -8,7 +8,7 @@ const Details = ({ room }: any) => {
         {room.title}
       </h1>
       <Slider imgUrls={room.imgUrls} />
-      <Button className="p-6 bg-pink w-full text-2xl md:max-w-[20vw]">
+      <Button className="p-6 bg-pink text-black w-full text-2xl md:max-w-[20vw]">
         Book Now
       </Button>
       <p className="p-10 text-xl font-semibold">{room.description}</p>
