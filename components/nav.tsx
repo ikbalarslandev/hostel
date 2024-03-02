@@ -49,7 +49,14 @@ const Nav = () => {
           alt="logo"
           width={180}
           height={200}
-          className="mt-3 scale-x-125"
+          className="mt-3 scale-x-125 hidden md:block "
+        />
+        <Image
+          src="/logo.png"
+          alt="logo"
+          width={150}
+          height={200}
+          className="mt-3 scale-x-125 md:hidden  "
         />
       </Link>
       <Button className=" h-[7vh] md:h-[5vh] p-1 text-xs text-white  md:w-[19vw] w-[30vw]  md:text-lg ">

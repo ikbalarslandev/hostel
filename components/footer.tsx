@@ -48,7 +48,7 @@ const Footer = () => {
       >
         <div className="gap-3  hidden md:flex mr-2  ">
           <p className="text-yellow-400 font-bold">Kandiller str.</p>
-          <p className="text-yellow-400 ">Istanbul</p>
+          <p className="text-yellow-400 ">Antalya</p>
         </div>
       </Link>
     </footer>
