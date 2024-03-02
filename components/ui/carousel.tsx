@@ -218,7 +218,7 @@ const CarouselPrevious = React.forwardRef<
       onClick={scrollPrev}
       {...props}
     >
-      <FaAngleLeft className="h-12 w-12 text-pink" />
+      <FaAngleLeft className="h-12 w-12 text-yellow-500" />
       <span className="sr-only">Previous slide</span>
     </Button>
   );
@@ -250,7 +250,7 @@ const CarouselNext = React.forwardRef<
       onClick={scrollNext}
       {...props}
     >
-      <FaAngleRight className="h-12 w-12 text-pink" />
+      <FaAngleRight className="h-12 w-12 text-yellow-500" />
       <span className="sr-only">Next slide</span>
     </Button>
   );
