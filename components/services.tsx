@@ -65,7 +65,7 @@ const Services = () => {
         </div>
         <div className="bg-yellow-400 h-[2px] w-[80vw] md:w-[30vw] my-2 z-10"></div>
 
-        <Button className="z-10 mt-1">
+        <Button className="z-10 mt-1 md:mt-20">
           <Link href="#">See More</Link>
         </Button>
       </div>

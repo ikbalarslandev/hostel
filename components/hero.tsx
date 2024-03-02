@@ -15,7 +15,7 @@ const Hero = () => {
         loop
       >
         <source
-          src="https://hostelfabrika.com/wp-content/uploads/2019/08/fabrika.mp4"
+          src="https://utfs.io/f/8b5716fd-66dd-4c1a-b22b-1a23d490f4b2-1wkca.MP4"
           type="video/mp4"
         />
       </video>
@@ -40,20 +40,20 @@ const Hero = () => {
 
         <hr className="w-20 mb-2 bg-white " />
         <Button variant="link" className="text-yellow-400 font-bold text-2xl ">
-          <Link href="#">About Us</Link>
+          <Link href="/about">About Us</Link>
         </Button>
       </div>
 
       <div className="text-white flex flex-col gap-10 md:hidden mt-[10vh]">
         <div className="flex gap-2 z-10">
           <Button className="w-[30vw]  text-lg">
-            <Link href="https://www.google.com/maps/place/Taksim+Square,+%C5%9Eehit+Muhtar,+34435+Beyo%C4%9Flu%2F%C4%B0stanbul/@41.0370013,28.974792,15z/data=!3m1!4b1!4m6!3m5!1s0x14cab7650656bd63:0x8ca058b28c20b6c3!8m2!3d41.0370023!4d28.9850917!16zL20vMDJ5cW40?entry=ttu">
+            <Link href="https://www.google.com/maps/place/Berlin+Hostel+%26+Street/@36.8844456,30.7060141,17z/data=!3m1!4b1!4m10!3m9!1s0x14c39006eedf3f27:0xcaa355039f162897!5m3!1s2024-05-04!4m1!1i2!8m2!3d36.8844456!4d30.7085944!16s%2Fg%2F11tfc5dq11?entry=ttu">
               LOCATION
             </Link>
           </Button>
         </div>
       </div>
-      <div className="flex flex-col items-center text-white mt-auto z-10">
+      <div className="flex flex-col items-center text-white mt-auto  z-10">
         <p className="text-sm">SCROLL DOWN</p>
         <FaAngleDown className="text-xl" />
       </div>
