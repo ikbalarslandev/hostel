@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Footer = () => {
   const iconClass =
-    "w-10 md:w-9 md:h-9 h-10 bg-yellow-400 m-1 p-2 rounded-full";
+    "w-10 md:w-9 md:h-9 h-10 bg-yellow-400  m-1 p-2 rounded-full";
   return (
     <footer className="h-20 md:h-12 bg-black flex items-center justify-between px-1">
       <div className=" flex items-center flex-col md:flex-row md:gap-8 ">

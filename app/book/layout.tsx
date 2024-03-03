@@ -1,4 +1,5 @@
 import Nav from "@/components/book/nav";
+import Footer from "@/components/footer";
 
 export default function BookLayout({
   children,
@@ -6,9 +7,10 @@ export default function BookLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="bg-black h-[102vh] md:h-[100vh] absolute top-0 left-0 z-50 w-full">
+    <main className="bg-black ">
       <Nav />
       <div className="min-h-screen "> {children}</div>
+      <Footer />
     </main>
   );
 }
