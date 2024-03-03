@@ -1,4 +1,8 @@
 import Link from "next/link";
+import MobileAccordion from "./mobile-progress";
+import { Accordion } from "@/components/ui/accordion";
+
+const content = ["Categories", "Rates", "Summary", "Details"];
 
 const Nav = () => {
   return (
@@ -11,7 +15,10 @@ const Nav = () => {
           </div>
         </Link>
       </div>
-      <hr className="" />
+      <hr />
+      <Accordion type="single" collapsible className="w-full  ">
+        <MobileAccordion trigger="Dates" content={content} />
+      </Accordion>
     </nav>
   );
 };
