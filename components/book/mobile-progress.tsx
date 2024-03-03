@@ -10,8 +10,8 @@ export const Template = ({ content }: any) => {
     <div className=" flex flex-col items-start ">
       <div className=" mx-[9vw] w-[1px] h-[3vh] mb-3  bg-pink"></div>
       <div className="flex items-center mb-3 ">
-        <CiCalendar className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />
-        <p className="text-white">{content}</p>
+        {content.icon}
+        <p className="text-white">{content.type}</p>
       </div>
     </div>
   );

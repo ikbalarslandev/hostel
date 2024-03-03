@@ -1,8 +1,35 @@
 import Link from "next/link";
 import MobileAccordion from "./mobile-progress";
 import { Accordion } from "@/components/ui/accordion";
+//icons
+import { CiCalendar } from "react-icons/ci";
+import { MdOutlineDoorFront } from "react-icons/md";
+import { IoPricetagOutline } from "react-icons/io5";
+import { HiListBullet } from "react-icons/hi2";
+import { IoPersonOutline } from "react-icons/io5";
 
-const content = ["Categories", "Rates", "Summary", "Details"];
+const content = [
+  {
+    type: "Categories",
+    icon: (
+      <MdOutlineDoorFront className="ml-[5vw]  mr-[4vw] text-white  w-8 h-8" />
+    ),
+  },
+  {
+    type: "Rates",
+    icon: (
+      <IoPricetagOutline className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />
+    ),
+  },
+  {
+    type: "Summary",
+    icon: <HiListBullet className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />,
+  },
+  {
+    type: "Details",
+    icon: <IoPersonOutline className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />,
+  },
+];
 
 const Nav = () => {
   return (
@@ -16,7 +43,7 @@ const Nav = () => {
         </Link>
       </div>
       <hr />
-      <Accordion type="single" collapsible className="w-full  ">
+      <Accordion type="single" collapsible className="w-full ">
         <MobileAccordion trigger="Dates" content={content} />
       </Accordion>
     </nav>
