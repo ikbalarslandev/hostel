@@ -9,17 +9,30 @@ import {
 import { CiCalendar } from "react-icons/ci";
 import { useState, useEffect } from "react";
 
-export const Template = ({ content, withLine = true, setCurrent }: any) => {
+export const Template = ({
+  content,
+  current,
+  withLine = true,
+  setCurrent,
+}: any) => {
   return (
     <div
       className=" flex   flex-col items-start  "
       onClick={() => setCurrent(content.type)}
     >
       {withLine && (
-        <div className=" mx-[9vw] w-[1px] h-[3vh] mb-3  bg-pink"></div>
+        <div
+          className={` mx-[9vw] w-[1px] h-[3vh] ${
+            current !== content.type && "mb-3"
+          }   bg-gray-500`}
+        ></div>
       )}
-      <div className={`flex items-center  ${withLine ? "mb-3" : "mb-0"}`}>
-        {content.icon}
+      <div
+        className={`flex items-center  ${
+          withLine && current !== content.type ? "mb-3" : "mb-0"
+        }`}
+      >
+        {current !== content.type ? content.icon : content.currentIcon}
         <p className="text-white">{content.type}</p>
       </div>
     </div>
@@ -36,6 +49,9 @@ const MobileAccordion = ({ trigger, content }: any) => {
     {
       type: "Dates",
       icon: <CiCalendar className="ml-[5vw]   mr-[4vw] text-white w-8 h-8" />,
+      currentIcon: (
+        <CiCalendar className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8" />
+      ),
     },
     ...content,
   ];
@@ -48,8 +64,6 @@ const MobileAccordion = ({ trigger, content }: any) => {
   }, []);
 
   useEffect(() => {
-    console.log(current);
-
     setCurrentObj(newContent.find((item) => item.type === current));
   }, [current]);
   return (
@@ -80,16 +94,19 @@ const MobileAccordion = ({ trigger, content }: any) => {
         <Template
           content={newContent[0]}
           withLine={false}
+          current={current}
           setCurrent={setCurrent}
         />
-        {current === newContent[0].type && "heheh"}
       </AccordionTrigger>
       <AccordionContent>
         {content.map((item: any, i: number) => (
           <div key={i}>
             <ItemTrigger>
-              <Template content={item} setCurrent={setCurrent} />
-              {current === item.type && "heheh"}
+              <Template
+                content={item}
+                current={current}
+                setCurrent={setCurrent}
+              />
             </ItemTrigger>
           </div>
         ))}

@@ -12,7 +12,10 @@ const content = [
   {
     type: "Categories",
     icon: (
-      <MdOutlineDoorFront className="ml-[5vw]  mr-[4vw] text-white  w-8 h-8" />
+      <MdOutlineDoorFront className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />
+    ),
+    currentIcon: (
+      <MdOutlineDoorFront className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
     ),
   },
   {
@@ -20,14 +23,23 @@ const content = [
     icon: (
       <IoPricetagOutline className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />
     ),
+    currentIcon: (
+      <IoPricetagOutline className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
+    ),
   },
   {
     type: "Summary",
     icon: <HiListBullet className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />,
+    currentIcon: (
+      <HiListBullet className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
+    ),
   },
   {
     type: "Details",
     icon: <IoPersonOutline className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />,
+    currentIcon: (
+      <IoPersonOutline className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
+    ),
   },
 ];
 
