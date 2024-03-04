@@ -32,7 +32,8 @@ export const Template = ({
           current !== content.type ? "text-gray-500" : "text-white"
         }  ${withLine && current !== content.type ? "mb-3 " : "mb-0 "}`}
       >
-        {current !== content.type ? content.icon : content.currentIcon}
+        {content.icon}
+        {/* {current !== content.type ? content.icon : content.currentIcon} */}
         <p>{content.type}</p>
       </div>
     </div>
@@ -101,7 +102,7 @@ const MobileAccordion = ({ trigger, content }: any) => {
           setCurrent={setCurrent}
         />
       </AccordionTrigger>
-      <AccordionContent>
+      <AccordionContent className="pb-3">
         {content.map((item: any, i: number) => (
           <div key={i}>
             <ItemTrigger>
