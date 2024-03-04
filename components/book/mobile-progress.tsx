@@ -4,6 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
+  ItemTrigger,
 } from "@/components/ui/accordion";
 import { CiCalendar } from "react-icons/ci";
 import { useState, useEffect } from "react";
@@ -11,7 +12,7 @@ import { useState, useEffect } from "react";
 export const Template = ({ content, withLine = true, setCurrent }: any) => {
   return (
     <div
-      className=" flex  flex-col items-start  "
+      className=" flex   flex-col items-start  "
       onClick={() => setCurrent(content.type)}
     >
       {withLine && (
@@ -25,6 +26,11 @@ export const Template = ({ content, withLine = true, setCurrent }: any) => {
   );
 };
 
+interface ObjType {
+  icon: any;
+  type: string;
+}
+
 const MobileAccordion = ({ trigger, content }: any) => {
   const newContent = [
     {
@@ -35,7 +41,7 @@ const MobileAccordion = ({ trigger, content }: any) => {
   ];
 
   const [current, setCurrent] = useState();
-  const [currentObj, setCurrentObj] = useState();
+  const [currentObj, setCurrentObj] = useState<ObjType | undefined>();
 
   useEffect(() => {
     setCurrent(newContent[0]);
@@ -43,24 +49,37 @@ const MobileAccordion = ({ trigger, content }: any) => {
 
   useEffect(() => {
     console.log(current);
+
     setCurrentObj(newContent.find((item) => item.type === current));
   }, [current]);
   return (
     <AccordionItem value={trigger}>
       {/* closed */}
       <AccordionTrigger className=" data-[state=open]:hidden  pr-2 font-semibold text-left">
-        <div
-          className=" flex  flex-col items-start  "
-          onClick={() => setCurrent(content.type)}
-        >
-          <div className={`flex items-center  ${"mb-0"}`}>
-            {currentObj?.icon}
-            <p className="text-white">{currentObj?.type}</p>
+        {currentObj ? (
+          <div
+            className=" flex  flex-col items-start  "
+            onClick={() => setCurrent(content.type)}
+          >
+            <div className={`flex items-center  ${"mb-0"}`}>
+              {currentObj.icon}
+              <p className="text-white">{currentObj.type}</p>
+            </div>
           </div>
-        </div>
+        ) : (
+          <div
+            className=" flex  flex-col items-start  "
+            onClick={() => setCurrent(content.type)}
+          >
+            <div className={`flex items-center  ${"mb-0"}`}>
+              <CiCalendar className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />
+              <p className="text-white">Dates</p>
+            </div>
+          </div>
+        )}
       </AccordionTrigger>
       {/* open */}
-      <AccordionTrigger className=" data-[state=open]:flex hidden  pr-2 font-semibold text-left ">
+      <AccordionTrigger className=" data-[state=open]:flex  hidden  pr-2 font-semibold text-left ">
         <Template
           content={newContent[0]}
           withLine={false}
@@ -70,7 +89,9 @@ const MobileAccordion = ({ trigger, content }: any) => {
       <AccordionContent>
         {content.map((item: any, i: number) => (
           <div key={i}>
-            <Template content={item} setCurrent={setCurrent} />
+            <ItemTrigger>
+              <Template content={item} setCurrent={setCurrent} />
+            </ItemTrigger>
           </div>
         ))}
       </AccordionContent>
