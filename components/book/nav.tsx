@@ -1,12 +1,16 @@
+"use client";
+
 import Link from "next/link";
 import MobileAccordion from "./mobile-progress";
+import DesktopProgress from "./desktop-progress";
 import { Accordion } from "@/components/ui/accordion";
 //icons
-import { CiCalendar } from "react-icons/ci";
+
 import { MdOutlineDoorFront } from "react-icons/md";
 import { IoPricetagOutline } from "react-icons/io5";
 import { HiListBullet } from "react-icons/hi2";
 import { IoPersonOutline } from "react-icons/io5";
+import { useEffect } from "react";
 
 const content = [
   {
@@ -40,6 +44,9 @@ const content = [
 ];
 
 const Nav = () => {
+  useEffect(() => {
+    localStorage.setItem("currentPage", "Dates");
+  }, []);
   return (
     <nav>
       <div className="flex justify-between items-center">
@@ -50,10 +57,11 @@ const Nav = () => {
           </div>
         </Link>
       </div>
-      <hr />
-      <Accordion type="single" collapsible className="w-full ">
+      <hr className="md:hidden" />
+      <Accordion type="single" collapsible className="w-full md:hidden ">
         <MobileAccordion trigger="Dates" content={content} />
       </Accordion>
+      <DesktopProgress />
     </nav>
   );
 };

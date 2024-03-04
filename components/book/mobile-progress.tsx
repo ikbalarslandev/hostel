@@ -7,7 +7,7 @@ import {
   ItemTrigger,
 } from "@/components/ui/accordion";
 import { CiCalendar } from "react-icons/ci";
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 
 export const Template = ({
   content,
@@ -56,15 +56,18 @@ const MobileAccordion = ({ trigger, content }: any) => {
     ...content,
   ];
 
-  const [current, setCurrent] = useState();
+  const [current, setCurrent] = useState<string | undefined>();
   const [currentObj, setCurrentObj] = useState<ObjType | undefined>();
 
   useEffect(() => {
-    setCurrent(newContent[0]);
+    const loc = localStorage.getItem("currentPage");
+
+    setCurrent(loc ? loc : "Dates");
   }, []);
 
   useEffect(() => {
     setCurrentObj(newContent.find((item) => item.type === current));
+    current && window.localStorage.setItem("currentPage", current);
   }, [current]);
   return (
     <AccordionItem value={trigger}>
