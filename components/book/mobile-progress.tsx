@@ -35,7 +35,7 @@ const MobileAccordion = ({ trigger, content }: any) => {
   const newContent = [
     {
       type: "Dates",
-      icon: <CiCalendar className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />,
+      icon: <CiCalendar className="ml-[5vw]   mr-[4vw] text-white w-8 h-8" />,
     },
     ...content,
   ];
@@ -57,10 +57,7 @@ const MobileAccordion = ({ trigger, content }: any) => {
       {/* closed */}
       <AccordionTrigger className=" data-[state=open]:hidden  pr-2 font-semibold text-left">
         {currentObj ? (
-          <div
-            className=" flex  flex-col items-start  "
-            onClick={() => setCurrent(content.type)}
-          >
+          <div className=" flex  flex-col items-start">
             <div className={`flex items-center  ${"mb-0"}`}>
               {currentObj.icon}
               <p className="text-white">{currentObj.type}</p>
@@ -85,12 +82,14 @@ const MobileAccordion = ({ trigger, content }: any) => {
           withLine={false}
           setCurrent={setCurrent}
         />
+        {current === newContent[0].type && "heheh"}
       </AccordionTrigger>
       <AccordionContent>
         {content.map((item: any, i: number) => (
           <div key={i}>
             <ItemTrigger>
               <Template content={item} setCurrent={setCurrent} />
+              {current === item.type && "heheh"}
             </ItemTrigger>
           </div>
         ))}
