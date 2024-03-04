@@ -53,7 +53,7 @@ const DesktopProgress = () => {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("currentPage", current);
+    current && localStorage.setItem("currentPage", current);
   }, [current]);
 
   const handleClick = (type: string) => {
