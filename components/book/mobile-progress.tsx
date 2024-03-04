@@ -28,12 +28,12 @@ export const Template = ({
         ></div>
       )}
       <div
-        className={`flex items-center  ${
-          withLine && current !== content.type ? "mb-3" : "mb-0"
-        }`}
+        className={`flex items-center ${
+          current !== content.type ? "text-gray-500" : "text-white"
+        }  ${withLine && current !== content.type ? "mb-3 " : "mb-0 "}`}
       >
         {current !== content.type ? content.icon : content.currentIcon}
-        <p className="text-white">{content.type}</p>
+        <p>{content.type}</p>
       </div>
     </div>
   );
@@ -48,9 +48,9 @@ const MobileAccordion = ({ trigger, content }: any) => {
   const newContent = [
     {
       type: "Dates",
-      icon: <CiCalendar className="ml-[5vw]   mr-[4vw] text-white w-8 h-8" />,
+      icon: <CiCalendar className="ml-[5vw]   mr-[4vw]  w-8 h-8" />,
       currentIcon: (
-        <CiCalendar className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8" />
+        <CiCalendar className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw]  w-8 h-8" />
       ),
     },
     ...content,

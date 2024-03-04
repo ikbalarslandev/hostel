@@ -11,34 +11,30 @@ import { IoPersonOutline } from "react-icons/io5";
 const content = [
   {
     type: "Categories",
-    icon: (
-      <MdOutlineDoorFront className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />
-    ),
+    icon: <MdOutlineDoorFront className="ml-[5vw]  mr-[4vw]  w-8 h-8" />,
     currentIcon: (
-      <MdOutlineDoorFront className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
+      <MdOutlineDoorFront className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw]  w-8 h-8 my-3" />
     ),
   },
   {
     type: "Rates",
-    icon: (
-      <IoPricetagOutline className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />
-    ),
+    icon: <IoPricetagOutline className="ml-[5vw]  mr-[4vw]  w-8 h-8" />,
     currentIcon: (
-      <IoPricetagOutline className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
+      <IoPricetagOutline className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw]  w-8 h-8 my-3" />
     ),
   },
   {
     type: "Summary",
-    icon: <HiListBullet className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />,
+    icon: <HiListBullet className="ml-[5vw]  mr-[4vw]  w-8 h-8" />,
     currentIcon: (
-      <HiListBullet className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
+      <HiListBullet className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw]  w-8 h-8 my-3" />
     ),
   },
   {
     type: "Details",
-    icon: <IoPersonOutline className="ml-[5vw]  mr-[4vw] text-white w-8 h-8" />,
+    icon: <IoPersonOutline className="ml-[5vw]  mr-[4vw]  w-8 h-8" />,
     currentIcon: (
-      <IoPersonOutline className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw] text-white w-8 h-8 my-3" />
+      <IoPersonOutline className="ml-[5vw] bg-pink rounded-full bg-opacity-40 mr-[4vw]  w-8 h-8 my-3" />
     ),
   },
 ];
