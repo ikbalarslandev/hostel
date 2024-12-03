@@ -5,7 +5,7 @@ const data = [
   },
   {
     trigger: "How can I book a room/bed?",
-    desc: "You can make reservation online, or by calling our reception via telephone or Whatsapp. Reception works 24/7.  Tel: +90 532 553 84 84  ",
+    desc: "You can make reservation online, or by calling our reception via telephone or Whatsapp. Reception works 24/7.  Tel: +90 538 561 93 58",
   },
 ];
 

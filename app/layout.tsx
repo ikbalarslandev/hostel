@@ -5,9 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Berlin Hostel & Street",
+  title: "Yolo Hostel",
   description:
-    " independent and locally run hostel with a unique family atmosphere that will make you feel right at home. ",
+    "independent and locally run hostel with a unique family atmosphere that will make you feel right at home. ",
 };
 
 export default function RootLayout({

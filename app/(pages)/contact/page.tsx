@@ -20,13 +20,13 @@ const ContactPage = () => {
         <div className="flex-1">
           <Template
             header="ENQUIRIES"
-            mail="info@berlinhostel.com"
-            phone="+90 532 553 84 84"
+            mail="info@yolohostel.com"
+            phone="+90 538 561 93 58"
           />
           <Template
             header="RESERVATIONS"
-            mail="bookings@berlinhostel.com"
-            phone="+90 532 553 84 84"
+            mail="bookings@yolohostel.com"
+            phone="+90 538 561 93 58"
           />
         </div>
       </div>
