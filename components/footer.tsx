@@ -25,16 +25,16 @@ const Footer = () => {
 
       <div className=" flex flex-col items-end  justify-center  mt-1   ">
         <div className="flex mr-auto md:mr-0 ">
-          <Link href="https://www.tripadvisor.com/Hotel_Review-g15300585-d26850246-Reviews-Berlin_Hostel_Street-Muratpasa_Antalya_Turkish_Mediterranean_Coast.html">
+          <Link href="https://www.tripadvisor.com.tr/Hotel_Review-g293974-d17790300-Reviews-Yolo_Hostel-Istanbul.html">
             <FaTripadvisor className={iconClass} />
           </Link>
           <Link href="https://www.twitter.com/">
             <FaTwitter className={iconClass} />
           </Link>
-          <Link href="https://www.instagram.com/berlinhostel/">
+          <Link href="https://www.instagram.com/yolohostelkadikoy/">
             <FaInstagram className={iconClass} />
           </Link>
-          <Link href="https://m.facebook.com/p/Berlin-Hostel-Street-Pub-100086830014602/">
+          <Link href="https://facebook.com/">
             <FaFacebookF className={iconClass} />
           </Link>
         </div>
@@ -44,11 +44,11 @@ const Footer = () => {
       </div>
       <Link
         className="gap-3  hidden md:flex mr-2"
-        href="https://www.google.com/maps/place/Berlin+Hostel+%26+Street/@36.8809976,30.7036395,18.42z/data=!4m10!3m9!1s0x14c39006eedf3f27:0xcaa355039f162897!5m3!1s2024-05-04!4m1!1i2!8m2!3d36.8844456!4d30.7085944!16s%2Fg%2F11tfc5dq11?entry=ttu"
+        href="https://www.google.com/maps/place/Yolo+Hostel/@40.9947033,29.0247735,17.27z/data=!4m9!3m8!1s0x14cab955e0436a69:0xcf7e1d4f90863a16!5m2!4m1!1i2!8m2!3d40.9944457!4d29.0277108!16s%2Fg%2F11h763wnyv?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D"
       >
         <div className="gap-3  hidden md:flex mr-2  ">
-          <p className="text-yellow-400 font-bold">Kandiller str.</p>
-          <p className="text-yellow-400 ">Antalya</p>
+          <p className="text-yellow-400 font-bold">Yeldegirmeni str.</p>
+          <p className="text-yellow-400 ">Istanbul</p>
         </div>
       </Link>
     </footer>

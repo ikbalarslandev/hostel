@@ -47,19 +47,19 @@ const Slider = () => {
           <div className="bg-yellow-400 h-full w-[28vw] flex flex-col">
             <div className="flex-1 bg-white  px-10 py-28">
               <h1 className="text-yellow-500 text-xl font-semibold ">
-                Example Hostel
+                Yolo Hostel
               </h1>
               <p>
-                Kandiller str. <br />
-                Antalya
+                Yeldegirmeni str. <br />
+                Istanbul
               </p>
               <p className="font-bold">Turkey</p>
-              <p className="text-sm mb-10">zip code: 07100</p>
+              <p className="text-sm mb-10">zip code: 34000</p>
               <p className="text-sm">
-                Berlin Hostel & Street is an independent and locally run, and as
-                such you will get the personal touch not found in big chain
-                hostels, with a unique family atmosphere that will make you feel
-                right at home.
+                Yolo Hostel is an independent and locally run, and as such you
+                will get the personal touch not found in big chain hostels, with
+                a unique family atmosphere that will make you feel right at
+                home.
               </p>
             </div>
             <div className=" px-12  w-full h-[30vh] flex flex-col items-start justify-center gap-6">

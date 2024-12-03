@@ -3,11 +3,11 @@
 import { Map, AdvancedMarker, Pin } from "@vis.gl/react-google-maps";
 
 export default function MapPage({ className = "" }: { className?: string }) {
-  const position = { lat: 36.884809615672495, lng: 30.708707755120507 };
+  const position = { lat: 40.99461252644812, lng: 29.02776657395166 };
 
   const handleClick = () => {
     window.open(
-      "https://www.google.com/maps/place/Berlin+Hostel+%26+Street/@36.8809976,30.7036395,18.42z/data=!4m10!3m9!1s0x14c39006eedf3f27:0xcaa355039f162897!5m3!1s2024-05-04!4m1!1i2!8m2!3d36.8844456!4d30.7085944!16s%2Fg%2F11tfc5dq11?entry=ttu",
+      "https://www.google.com/maps/place/Yolo+Hostel/@40.9944497,29.0251359,17z/data=!3m1!4b1!4m9!3m8!1s0x14cab955e0436a69:0xcf7e1d4f90863a16!5m2!4m1!1i2!8m2!3d40.9944457!4d29.0277108!16s%2Fg%2F11h763wnyv?entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D",
       "_blank"
     );
   };

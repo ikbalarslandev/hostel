@@ -15,7 +15,7 @@ const Hero = () => {
         loop
       >
         <source
-          src="https://utfs.io/f/8b5716fd-66dd-4c1a-b22b-1a23d490f4b2-1wkca.MP4"
+          src="https://hostelfabrika.com/wp-content/uploads/2019/08/fabrika.mp4"
           type="video/mp4"
         />
       </video>
@@ -34,8 +34,8 @@ const Hero = () => {
       <div className="flex flex-col  items-center md:mt-[40vh] z-0 mt-[30vh] mx-10 ">
         <hr className="w-20 bg-white" />
         <h1 className="text-center   text-white my-2 md:w-80 md:text-xl  ">
-          BERLIN HOSTEL & STREET IN ANTALYA, WHERE YOU SLEEP, EAT, DRINK,
-          DESIGN, CREATE, INTERACT, DISCOVER AND LEARN.
+          YOLO HOSTEL IN ISTANBUL, WHERE YOU SLEEP, EAT, DRINK, DESIGN, CREATE,
+          INTERACT, DISCOVER AND LEARN.
         </h1>
 
         <hr className="w-20 mb-2 bg-white " />

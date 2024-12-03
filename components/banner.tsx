@@ -25,7 +25,7 @@ const Banner = () => {
         <div className="flex-1 flex flex-col">
           <div className="flex-1 banner1"></div>
           <div className="flex-1    bg-black text-white text-lg flex items-center justify-center text-center font-semibold">
-            DISCOVER A NEW SIDE OF ANTALYA
+            DISCOVER A NEW SIDE OF KADIKOY
           </div>
         </div>
       </div>

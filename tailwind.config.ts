@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       backgroundImage: {
-        hero: "url('https://utfs.io/f/7ed14fc9-2604-4b76-a13e-04bc6473e900-1wkca.jpeg')",
+        hero: "url('https://hostelfabrika.com/wp-content/uploads/2018/03/Fabrika-Mamasakhlisi-7-1-1920x950.jpg')",
       },
       colors: {
         border: "hsl(var(--border))",
